@@ -2,5 +2,35 @@
    margin: 0 auto;
    padding: 10px;
    width: 80%;
-   display: block;
+   display: flex;
+   flex: auto;
+   background-color: whitesmoke;
+
+}
+.title {
+    padding: 10px;
+}
+.pic {
+    padding: 10px;
+    max-width: 33%;
+    float: right;
+}
+.pic img {
+    border-radius: 55%;
+    padding: 10px;
+    max-width: 45%;
+    width: 45%;
+}
+.basics {
+    padding: 10px;
+    max-width: 33%;
+    float: left;
+}
+.story {
+    padding: 10px;
+    max-width: 33%;
+    float: left;
+}
+.clearfix {
+    clear: both;
 }
